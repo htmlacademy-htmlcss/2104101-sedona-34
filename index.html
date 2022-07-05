@@ -18,7 +18,7 @@
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link" href="">Главная</a>
+            <a class="navigation-link navigation-link-current" href="">Главная</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">О Седоне</a>
@@ -30,17 +30,15 @@
         <ul class="navigation-user">
           <li class="navigation-item">
             <a class="navigation-link-user link-user-search" href="#"
-              ><span class="visually-hidden">Поиск.</span></a
-            >
+              ><span class="visually-hidden">Поиск.</span></a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link-user link-user-favorite" href="#"
-              ><span class="visually-hidden">Избранное.</span></a
-            >
+              ><span class="visually-hidden">Избранное.</span></a>
             <p class="amount">12</p>
           </li>
-          <li class="navigation-item navigation-button">
-            <a class="navigation-link-btn" href="#">Хочу сюда</a>
+          <li class="navigation-item navigation-button ">
+            <a class="navigation-link-button button-brown" href="#">Хочу сюда</a>
           </li>
         </ul>
       </nav>
@@ -144,14 +142,14 @@
             </p>
           </li>
           <li class="advantages-item advantages-block">
-            <h3 class="advantages-title">Красивая дорога</h3>
+            <h3 class="advantages-title">Красивая<br>дорога</h3>
             <p class="advantages-number">— №4 —</p>
             <p class="advantages-description">
               Ехать в Седону из Лас-Вегаса совсем не скучно!
             </p>
           </li>
           <li class="advantages-item advantages-block">
-            <h3 class="advantages-title">Мало туристов</h3>
+            <h3 class="advantages-title">Мало<br>туристов</h3>
             <p class="advantages-number">— №5 —</p>
             <p class="advantages-description">
               Большинство едет в Гранд Каньон и толпится там!
@@ -166,7 +164,7 @@
           Укажите предполагаемые даты поездки,и мы покажем вам лучшие
           предложения гостиниц в Седоне
         </p>
-        <a href="#" class="search-btn">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+        <a href="#" class="search-button button-brown">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
       </section>
     </main>
     <footer class="page-footer">
@@ -184,38 +182,39 @@
               id="email"
               placeholder="Ваш e-mail"
             />
-            <button class="email-button" type="submit">Подписаться</button>
+            <button class="email-button button-blue" type="submit">Подписаться</button>
           </form>
         </div>
       </section>
       <section class="footer-contacts">
         <ul class="social">
           <li class="social-vk">
-            <a class="social-link" href="https://vk.com/htmlacademy"
-              ><span class="visually-hidden">Вконтакте.</span>
+            <a class="social-link" href="https://vk.com/htmlacademy">
+              <svg class="social-icon" aria-hidden="true" focusable="false" width="25" height="14" viewBox="0 0 25 14" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="m24 1-1-1h-2l-1 1-4 5-1 1V1l-1-1h-4L9 1l1 2v5L5 1 4 0H2L1 1l4 8c2 3 5 5 8 5l2-1v-3l3 1 3 3h3l1-1-3-3-1-2V7l3-6Z"/></svg><span class="visually-hidden">Вконтакте.</span>
             </a>
           </li>
           <li class="social-tg">
-            <a class="social-link" href="https://t.me/htmlacademy"
-              ><span class="visually-hidden">Телеграм.</span></a
+            <a class="social-link" href="https://t.me/htmlacademy">
+              <svg class="social-icon" aria-hidden="true" focusable="false" width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17 0 1 6v2l4 1 9-6h1l-8 7v4h1l2-2 4 3 1-1 3-13-1-1Z"/></svg>
+              <span class="visually-hidden">Телеграм.</span></a
             >
           </li>
           <li class="social-youtube">
             <a
               class="social-link"
               href="https://www.youtube.com/user/htmlacademyru"
-              ><span class="visually-hidden">Ютуб.</span>
+              ><svg class="social-icon" aria-hidden="true" focusable="false" width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 1H4C2 1 0 2 0 4v10c0 2 2 4 4 4h15c2 0 3-2 3-4V4c0-2-1-3-3-3ZM8 13V5l7 4-7 4Z"/></svg><span class="visually-hidden">Ютуб.</span>
             </a>
           </li>
         </ul>
         <a class="phone" href="tel:78128121212">+7 (812) 812-12-12 </a>
         <a class="footer-logo" href="https://htmlacademy.ru/">
-          <img
-            src="images/logo_academy.svg"
-            width="115"
-            height="33"
-            alt="Логотип .html academy"
-          />
+          <svg class="footer-logo-icon" aria-hidden="true" focusable="false"width="115" height="33" viewBox="0 0 115 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 13v3h3v-3H0ZM12 5 8 6V0H6v16h2v-6c0-2 1-3 3-3s3 1 3 3v6h2V9c0-3-2-4-4-4ZM27 5h-5V1h-2v4h-2v2h2v6c0 2 1 3 3 3h4v-2h-4l-1-1V7h5V5ZM41 5c-1 0-3 0-3 2l-4-2-3 1V5h-2v10h2v-5c0-2 1-3 3-3l2 2v6h2v-5c0-3 1-3 3-3l2 2v6h2V9c0-3-1-4-4-4ZM48 13c0 1 1 2 3 2h2v-2h-2l-1-1V0h-2v13ZM29 20l-4-2c-3 0-5 2-5 6 0 3 2 5 5 5l4-2v2h2V18h-2v2Zm-4 7c-2 0-3-1-3-3s1-4 3-4c3 0 4 2 4 4 0 1-1 3-4 3ZM44 22c0-2-2-4-5-4-4 0-6 2-6 6 0 3 2 5 6 5 3 0 5-2 5-4h-2l-3 2c-2 0-4-1-4-3s2-4 4-4l3 2h2ZM55 20l-4-2c-3 0-5 2-5 6 0 3 2 5 5 5l4-2v2h2V18h-2v2Zm-3 7c-3 0-4-1-4-3s1-4 4-4c2 0 3 2 3 4 0 1-1 3-3 3ZM69 20l-4-2c-3 0-6 2-6 6 0 3 3 5 6 5l4-2v2h2V13h-2v7Zm-4 7c-2 0-3-1-3-3s1-4 3-4 4 2 4 4-2 3-4 3ZM78 18c-3 0-5 2-5 6 0 3 2 5 5 5s5-1 6-3h-3l-3 1c-1 0-3-1-3-3h9c0-3-2-6-6-6Zm0 2 4 2h-7l3-2ZM98 18l-3 2-4-2-3 2v-2h-2v11h2v-6c0-2 1-3 3-3 1 0 2 1 2 3v6h2v-6c0-2 2-3 3-3s2 1 2 3v6h2v-7c0-2-1-4-4-4ZM109 27l-3-9h-2l4 12-1 1h-3v2h3c2 0 3-1 3-3l5-12h-2l-4 9Z"/></svg>
+          <span class="visually-hidden">Логотип .html academy"</span>
         </a>
       </section>
     </footer>
