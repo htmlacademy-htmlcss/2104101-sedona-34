@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>Седона - Каталог</title>
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="icon" sizes="32x32" href="favicon.ico">
   </head>
 
   <body>
@@ -12,7 +13,7 @@
         <a class="header-logo">
           <img
             src="images/main_logo.svg"
-            wdth="139"
+            width="139"
             height="70"
             alt="Логотип Седоны"
           />
@@ -65,7 +66,6 @@
                 <span class="visually-hidden">На главную.</span>
                 <svg
                   class="breadcrumps-link"
-                  class="breadcrumps-icon-index"
                   aria-hidden="true"
                   focusable="false"
                   width="12"
@@ -90,7 +90,7 @@
             <h2 class="visually-hidden">Фильтры гостиниц.</h2>
             <form class="catalog-filter" action="#" method="get">
               <fieldset class="catalog-filter-group filter-ifrastructure">
-                <legend class="catalog-filter-title">Инфраструктура</legend>
+                <legend class="catalog-filter-title">Инфраструктура:</legend>
                 <ul class="catalog-filter-item">
                   <li>
                     <label class="control">
@@ -119,25 +119,26 @@
                       <input
                         class="visually-hidden control-input"
                         type="checkbox"
-                        name="wi-fi"
+                        name="Wi-Fi"
                       /><span class="control-mark"></span>
-                      Wi-fi
+                      Wi-Fi
                     </label>
                   </li>
                 </ul>
               </fieldset>
 
               <fieldset class="catalog-filter-group filter-type">
-                <legend class="catalog-filter-title">Тип жилья</legend>
+                <legend class="catalog-filter-title">Тип Жилья:</legend>
                 <ul class="catalog-filter-item">
                   <li>
                     <label class="control">
                       <input
                         class="visually-hidden control-input"
                         type="radio"
-                        name="type-of-housing" checked
+                        name="type-of-housing"
+                        checked
                       /><span class="control-mark"></span>
-                      Отель
+                      Гостиница
                     </label>
                   </li>
                   <li>
@@ -163,8 +164,8 @@
                 </ul>
               </fieldset>
               <fieldset class="catalog-filter-group filter-price">
-                <legend class="filter-title-price">Стоимость</legend>
-                <ul class="catalog-filter-item catalog-filter-price">
+                <legend class="filter-title-price">Стоимость, ₽:</legend>
+                <ul class="catalog-filter-price">
                   <li class="price-item">
                     <label class="control-price control-price-min">
                       <input
@@ -179,7 +180,7 @@
                   <li class="price-item">
                     <label class="control-price control-price-max">
                       <input
-                        class="control-input-price "
+                        class="control-input-price"
                         type="text"
                         name="price-max"
                         value="9000"
@@ -190,11 +191,15 @@
                 </ul>
                 <div class="range-scale">
                   <div class="range-bar" style="left: 0; width: 228px">
-                    <button class="range-toggle toggle-min">
-                      <span class="visually-hidden">Изменить минимальную цену.</span>
+                    <button class="range-toggle toggle-min" type="button">
+                      <span class="visually-hidden">
+                        >Изменить минимальную цену.</span
+                      >
                     </button>
-                    <button class="range-toggle toggle-max">
-                      <span class="visually-hidden">Изменить максимальную цену.</span>
+                    <button class="range-toggle toggle-max" type="button">
+                      <span class="visually-hidden">
+                        >Изменить максимальную цену.</span
+                      >
                     </button>
                   </div>
                 </div>
@@ -273,7 +278,7 @@
             </a>
             <div class="hotel-card-info">
               <p class="hotel-type">Гостиница</p>
-              <p class="hotel-price">от 4000 ₽</p>
+              <p class="hotel-price">От 4000 ₽</p>
               <a class="hotel-button-more button-brown" href="#">Подробнее</a>
               <button class="hotel-button-like button-blue" type="submit">
                 В Избранное
@@ -302,7 +307,7 @@
             </a>
             <div class="hotel-card-info">
               <p class="hotel-type">Гостиница</p>
-              <p class="hotel-price">от 5000 ₽</p>
+              <p class="hotel-price">От 5000 ₽</p>
               <a class="hotel-button-more button-brown" href="#">Подробнее</a>
               <button
                 class="hotel-button-like button-like-selected"
@@ -398,25 +403,10 @@
           </ul>
           <div class="hotel-amount-block">
             <p class="hotel-amount">Гостиниц на странице:</p>
-            <div class="select">
-              <select class="select-control" name="select-hotel-amount">
+              <select class="select-control select-hotel-amount" name="select-hotel-amount">
                 <option value="four">4</option>
                 <option value="six">6</option>
               </select>
-              <svg
-                class="select-arrow"
-                width="12"
-                height="8"
-                viewBox="0 0 12 8"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M6.67495 7.2123L11.775 1.9123C12.075 1.6123 12.075 1.0123 11.775 0.712305C11.475 0.412305 10.875 0.412305 10.575 0.712305L6.07495 5.4123L1.57495 0.712305C1.27495 0.412305 0.674951 0.412305 0.374951 0.712305C0.174951 0.812305 0.0749512 1.1123 0.0749512 1.3123C0.0749512 1.5123 0.174951 1.7123 0.374951 1.9123L5.47495 7.2123C5.77495 7.6123 6.37495 7.6123 6.67495 7.2123Z"
-                  fill="black"
-                />
-              </svg>
-            </div>
           </div>
         </div>
       </section>
@@ -491,7 +481,6 @@
               href="https://www.youtube.com/user/htmlacademyru"
               ><svg
                 class="social-icon"
-                vg
                 aria-hidden="true"
                 focusable="false"
                 width="23"
