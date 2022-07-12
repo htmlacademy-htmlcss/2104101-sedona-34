@@ -145,21 +145,20 @@ body {
 }
 
 .navigation-link:hover {
- color:#00000050;
+  color: #00000050;
 }
 
 .navigation-link:focus {
-  color:#83B3D3;
+  color: #83b3d3;
 }
 
 .navigation-link:active {
-  color:#00000030;
- }
+  color: #00000030;
+}
 
 .navigation-link-user:hover,
 .navigation-link-user:focus,
-.navigation-link-user:active
- {
+.navigation-link-user:active {
   opacity: 0.3;
 }
 
@@ -181,8 +180,6 @@ body {
   border-radius: 4px;
   text-align: center;
 }
-
-
 
 /*main*/
 
@@ -360,7 +357,6 @@ body {
 .advantages-item:nth-child(3) {
   background-color: #0077af12;
 }
-
 
 .advantages-item:nth-child(4) {
   background-color: #0077af20;
@@ -723,7 +719,6 @@ body {
   background-color: #ffffff;
   outline: #000000 solid 2px;
 }
-
 
 .modal-warning {
   grid-column: 2 / 3;
@@ -1114,7 +1109,6 @@ body {
   margin-bottom: 15px;
 }
 
-
 .control-mark {
   position: absolute;
   width: 20px;
@@ -1370,7 +1364,7 @@ body {
   border: 2px solid #e5e5e5;
   border-radius: 4px;
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
 }
 
 .select {
@@ -1383,7 +1377,6 @@ body {
   top: 50%;
   right: 20px;
 }
-
 
 .select-control:hover,
 .select-control:focus {
@@ -1574,7 +1567,6 @@ body {
   margin-right: 6px;
 }
 
-
 .hotel-rating {
   font-weight: 400;
   font-size: 16px;
@@ -1661,7 +1653,7 @@ body {
   border-radius: 4px;
   padding: 14px 19px;
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
 }
 
 .email-catalog {
